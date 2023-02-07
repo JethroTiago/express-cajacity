@@ -14,7 +14,7 @@ const Home = () => {
           </div>
           <div className='home-text-section'>
             <h1 className='primary-heading'>
-              Alto Padrão! A melhor Pizza da região!
+              Alto Padrão!!! A melhor Pizza da região!
             </h1>
             <p className='primary-text'>
               A pizza mais saborosa de CajaCity, ótima para qualquer hora e ocasião!
