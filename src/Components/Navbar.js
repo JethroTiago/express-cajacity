@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../Assets/logo.png';
-import { CgShoppingCart } from 'react-icons/Cg';
-import { HiOutlineBars3 } from 'react-icons/Hi';
+import { BsCart2 } from 'react-icons/bs';
+import { HiOutlineBars3 } from 'react-icons/hi2';
 import {
   Box,
   Drawer,
@@ -15,6 +15,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from '@mui/icons-material/PhoneRounded';
 import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
+import { Anchor } from '@mui/icons-material';
 
 const Navbar = () => {
 
@@ -52,13 +53,32 @@ const Navbar = () => {
       <a href=''>Depoimentos</a>
       <a href=''>Contato</a>
       <a href=''>
-        <CgShoppingCart className='navbar-cart-icon' />
+        <BsCart2 className='navbar-cart-icon' />
       </a>
       <button className='primary-button'>Compre Agora!</button>
     </div>
     <div className='navbar-menu-container'>
       <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
     </div>
+    <Drawer open={openMenu} onClose={() => setOpenMenu(false)}
+    anchor="right">
+      <Box sx={{ width: 250 }}
+      role="presentation"
+      onClick={() => setOpenMenu(false)}
+      onKeyDown={() => setOpenMenu(false)}
+      >
+        <List>
+          {menuOptions.map((item) => (
+            <ListItem key={item.text} disablePadding >
+              <ListItemButton>
+                <ListItemIcon>{item.icon}</ListItemIcon>
+                <ListItemText primary={item.text}></ListItemText>
+              </ListItemButton>
+            </ListItem>
+          ))};
+        </List>
+      </Box>
+    </Drawer>
     </nav>
 }
 

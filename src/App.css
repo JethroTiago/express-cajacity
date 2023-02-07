@@ -4,3 +4,47 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif !important;
 }
+
+body {
+  max-width: 100%;
+  height: auto;
+  background-color: #f6f6f6;
+}
+
+.navbar-links-container a {
+  margin-right: 3em;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar-cart-icon {
+  font-size: 1.15rem;
+}
+
+.primary-button {
+  padding: 0.9rem 1.75rem;
+  background-color: #ffffff;
+  outline: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.primary-button:hover {
+  background-color: rgb(234, 234, 234);
+  color: #934343;
+}
+
+.navbar-menu-container {
+  display: none;
+}
+
+.home-banner-container {
+  position: relative;
+  display: flex;
+  padding-top: 3rem;
+}
