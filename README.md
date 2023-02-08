@@ -1,10 +1,10 @@
-# Projeto 39
+# Express Cajacity Pizzaria Landing Page
 
 Landing page criada com <strong>REACT</strong>. Desenvolvida para melhorar minhas habilidades no REACT, levando-as para um patamar mais elevado. 
 
 ### Deploy:
 
---soon--
+https://express-cajacity.vercel.app/
 
 ### Project View / Visualização do Projeto:
 
