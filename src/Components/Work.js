@@ -8,12 +8,12 @@ const Work = () => {
         {
             image: PickPizza,
             title: "Bateu a fome?",
-            text: "Pizza é um prato que combina com tudo! É um dos alimentos mais consumidos do mundo!",
+            text: "Pizza é um prato que combina com tudo! É um dos alimentos mais consumidos do mundo! Por que não saborear uma?",
         },
         {
             image: ChoosePizza,
             title: "Escolha uma pizza",
-            text: "Temos um imenso cardápio com uma quantidade gigante de sabores e tamanhos. É só clicar e escolher seu sabor favorito!",
+            text: "Temos um imenso cardápio com uma quantidade gigante de sabores! É só clicar e escolher seu sabor favorito!",
         },
         {
             image: DeliveryPizza,
@@ -24,9 +24,9 @@ const Work = () => {
     return <div className='work-section-wrapper'>
         <div className='work-section-top'>
             <p className='primary-subheading'>EXPRESS CAJACITY</p>
-            <h1 className='primary-subheading'>Como trabalhamos</h1>
+            <h1 className='primary-heading'>Como trabalhamos</h1>
             <p className='primary-text'>
-                De terça a quinta das 18:00 às 22h e de sexta a domingo das 18:00 às 22:40h! SÓ DELIVERY!
+                Terça, quarta e quinta das 18:00 às 22:00 e de sexta a domingo das 18:00 às 22:40! SÓ TRABALHAMOS COM DELIVERY!
             </p>
         </div>
         <div className='work-section-bottom'>
@@ -37,7 +37,7 @@ const Work = () => {
                             <img src={data.image} alt="Uma imagem ilustrativa do que esta sendo exposto"></img>
                         </div>
                         <h2>{data.title}</h2>
-                        <p className={data.text}></p>
+                        <p>{data.text}</p>
                     </div>
                 ))
             }
