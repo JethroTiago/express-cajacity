@@ -1,6 +1,6 @@
 # Projeto 39
 
---soon--
+Landing page criada com <strong>REACT</strong>. Desenvolvida para melhorar minhas habilidades no REACT, levando-as para um patamar mais elevado. 
 
 ### Deploy:
 
@@ -8,11 +8,11 @@
 
 ### Project View / Visualização do Projeto:
 
---soon--
+![Capturas de tela](https://user-images.githubusercontent.com/103612874/217619496-a9bc48f2-89b3-400b-9652-edf43e31b936.jpg)
 
 ## How it works / Como Funciona:
 
---soon--
+Trata-se de uma landing page responsiva, bonita e eficaz, desenvolvida a partir de uma modificação realizada no projeto original do instrutor [The Hyper Art 11](https://github.com/thehyperart11).
 
 ## Development languages or frameworks / Linguagens e estruturas de desenvolvimento:
 
@@ -20,7 +20,7 @@
 
 ## Learnings / Aprendizados:
 
---soon--
+React components
 
 ## Thanks / Agradecimentos:
 
