@@ -16,6 +16,13 @@ img {
   height: auto;
 }
 
+.App {
+  min-height: 100vh;
+  width: 85vw;
+  max-width: 1900px;
+  margin: 0rem auto;
+}
+
 /* NAVBAR */
 
 nav {
@@ -119,6 +126,10 @@ nav {
   justify-content: center;
 }
 
+.secondary-button:hover {
+  background-color: #e48f0f;
+}
+
 /* SEÇÃO SOBRE */
 
 .about-section-container {
@@ -176,4 +187,10 @@ nav {
 .watch-video-button svg {
   font-size: 3rem;
   margin-right: 1rem;
+}
+
+/* SEÇÃO WORK */
+
+.work-section-wrapper {
+  margin-top: 15rem;
 }
