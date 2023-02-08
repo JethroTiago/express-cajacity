@@ -15,6 +15,6 @@ function App() {
       <Contato />
     </div>
   );
-}
+};
 
 export default App;
