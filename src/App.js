@@ -4,6 +4,7 @@ import Sobre from './Components/Sobre';
 import Trabalho from './Components/Trabalho';
 import Depoimentos from './Components/Depoimentos';
 import Contato from './Components/Contato';
+import Rodape from './Components/Rodape';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Trabalho />
       <Depoimentos />
       <Contato />
+      <Rodape />
     </div>
   );
 };
