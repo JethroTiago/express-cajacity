@@ -1,15 +1,15 @@
 import React from 'react';
-import AboutBackground from '../Assets/about-background.png';
-import AboutBackgroundImage from '../Assets/about-background-image.png';
+import SobreBackground from '../Assets/about-background.png';
+import SobreBackgroundImage from '../Assets/about-background-image.png';
 import { BsFillPlayCircleFill } from 'react-icons/bs';
 
-const About = () => {
+const Sobre = () => {
   return <div className='about-section-container'>
     <div className='about-background-image-container'>
-        <img src={AboutBackground} alt="Um belo pano quadriculado laranja" />
+        <img src={SobreBackground} alt="Um belo pano quadriculado laranja" />
     </div>
     <div className='about-section-image-container'>
-        <img src={AboutBackgroundImage} alt='Imagem de uma pizza saborosa'></img>
+        <img src={SobreBackgroundImage} alt='Imagem de uma pizza saborosa'></img>
     </div>
     <div className='about-section-text-container'>
         <p className='primary-subheading'>Sobre</p>
@@ -34,4 +34,4 @@ const About = () => {
   </div>
 };
 
-export default About
+export default Sobre;

@@ -3,8 +3,8 @@ import PickPizza from "../Assets/pick-pizza-image.png";
 import ChoosePizza from "../Assets/choose-image.png";
 import DeliveryPizza from "../Assets/delivery-image.png";
 
-const Work = () => {
-    const workInfoData = [
+const Trabalho = () => {
+    const trabalhoInfoData = [
         {
             image: PickPizza,
             title: "Bateu a fome?",
@@ -31,7 +31,7 @@ const Work = () => {
         </div>
         <div className='work-section-bottom'>
             {
-                workInfoData.map((data) => (
+                trabalhoInfoData.map((data) => (
                     <div className='work-section-info'>
                         <div className='info-boxes-img-container'>
                             <img src={data.image} alt="Uma imagem ilustrativa do que esta sendo exposto"></img>
@@ -45,4 +45,4 @@ const Work = () => {
     </div>
 };
 
-export default Work;
+export default Trabalho;
