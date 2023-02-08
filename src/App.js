@@ -3,6 +3,7 @@ import Home from './Components/Home';
 import Sobre from './Components/Sobre';
 import Trabalho from './Components/Trabalho';
 import Depoimentos from './Components/Depoimentos';
+import Contato from './Components/Contato';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Sobre />
       <Trabalho />
       <Depoimentos />
+      <Contato />
     </div>
   );
 }
